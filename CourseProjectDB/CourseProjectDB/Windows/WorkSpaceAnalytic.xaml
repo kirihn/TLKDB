@@ -1,0 +1,78 @@
+﻿<Window x:Class="CourseProjectDB.WorkSpaceAnalytic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseProjectDB"
+        mc:Ignorable="d"
+        Title="WorkSpaceAnalytic" Height="1040" Width="1900" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="../Images/Fon.jpg"/>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Поставки" Grid.Column="1" Grid.Row="1" FontSize="14"/>
+        <Button Content="Отгрузки" Grid.Column="1" Grid.Row="3" FontSize="14"/>
+        <Button Content="Работники" Grid.Column="1" Grid.Row="5" FontSize="14"/>
+        <Button Content="Поставщики" Grid.Column="1" Grid.Row="7" FontSize="14"/>
+        <Button Content="Заказчики" Grid.Column="1" Grid.Row="9" FontSize="14"/>
+        <Button Content="Склады" Grid.Column="1" Grid.Row="11" FontSize="14"/>
+        <!--<Button Content="Назад" Grid.Column="1" Grid.Row="13" FontSize="14"/>-->
+        <Button Content="Назад" Grid.Column="1" Grid.Row="15" FontSize="14"/>
+        <Button Content="Назад" Grid.Column="1" Grid.Row="17" FontSize="14"/>
+        <Button Content="Назад" Grid.Column="1" Grid.Row="19" FontSize="14"/>
+        <Button Content="Назад" Grid.Column="1" Grid.Row="21" FontSize="14"/>
+        <Button Content="Назад" Grid.Column="1" Grid.Row="23" FontSize="14"/>
+        <Button Content="Назад" Grid.Column="1" Grid.Row="25" FontSize="14"/>
+        <Button Content="Очистить" Grid.Column="1" Grid.Row="27" FontSize="14"/>
+        <Button Content="Записать в json" Grid.Column="1" Grid.Row="29" FontSize="14"/>
+        <Button Content="Назад" Grid.Column="1" Grid.Row="31" FontSize="14"/>
+        <DatePicker Grid.Column="1" Grid.Row="13" />
+        <DatePicker Grid.Column="1" Grid.Row="13" Margin="0 20 0 0" />
+
+
+
+    </Grid>
+</Window>

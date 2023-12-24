@@ -1,0 +1,49 @@
+﻿<Window x:Class="CourseProjectDB.Windows.DelFacts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseProjectDB.Windows"
+        mc:Ignorable="d"
+        Title="DelFacts" Height="500" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition />
+
+
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="../Images/AdminPanel.jpg"/>
+        </Grid.Background>
+
+        <Label Content="Удаление записей" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="1" FontSize="14" FontWeight="Bold" Foreground="#FFFDFDFD" />
+        <Label Content="выберите id" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="4" FontSize="12" FontWeight="Bold" Foreground="#FFFDFDFD" />
+        <Label Content="Выберите поставщика/заказчика" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="2" FontSize="12" FontWeight="Bold" Foreground="#FFFDFDFD" />
+        <ComboBox Grid.Column="1" Grid.Row="3" SelectionChanged="ComboBox_SelectionChanged" Name="Combobox"/>
+        <ComboBox x:Name="shipmentComboBox" Grid.Column="1" Grid.Row="5" />
+
+        <Button Content="Удалить" Grid.Column="1" Grid.Row="8" FontSize="14" Click="Button_Click"/>
+        <Button Content="Назад" Grid.Column="1" Grid.Row="10" FontSize="14" Click="Button_ClickBack"/>
+    </Grid>
+    
+    
+    
+</Window>

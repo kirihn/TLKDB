@@ -1,0 +1,107 @@
+[
+  {
+    "ARRIVAL_ID": "2",
+    "PRODUCT_NAME": "Молоко 2.8%",
+    "PRODUCT_COUNT": "180",
+    "PRODUCT_PRICE": "1,99",
+    "Sum_Price": "358,2"
+  },
+  {
+    "ARRIVAL_ID": "3",
+    "PRODUCT_NAME": "Молоко 3.2%",
+    "PRODUCT_COUNT": "180",
+    "PRODUCT_PRICE": "2,19",
+    "Sum_Price": "394,2"
+  },
+  {
+    "ARRIVAL_ID": "21",
+    "PRODUCT_NAME": "Кока-Кола 0,5л",
+    "PRODUCT_COUNT": "2000",
+    "PRODUCT_PRICE": "2,59",
+    "Sum_Price": "5180"
+  },
+  {
+    "ARRIVAL_ID": "22",
+    "PRODUCT_NAME": "Кока-Кола 1л",
+    "PRODUCT_COUNT": "500",
+    "PRODUCT_PRICE": "3,59",
+    "Sum_Price": "1795"
+  },
+  {
+    "ARRIVAL_ID": "23",
+    "PRODUCT_NAME": "Кока-Кола 2л",
+    "PRODUCT_COUNT": "500",
+    "PRODUCT_PRICE": "4,59",
+    "Sum_Price": "2295"
+  },
+  {
+    "ARRIVAL_ID": "24",
+    "PRODUCT_NAME": "Лоток для кошек",
+    "PRODUCT_COUNT": "50",
+    "PRODUCT_PRICE": "9,9",
+    "Sum_Price": "495"
+  },
+  {
+    "ARRIVAL_ID": "25",
+    "PRODUCT_NAME": "Влажный корм Felix 90г х 24шт.",
+    "PRODUCT_COUNT": "150",
+    "PRODUCT_PRICE": "18,95",
+    "Sum_Price": "2842,5"
+  },
+  {
+    "ARRIVAL_ID": "26",
+    "PRODUCT_NAME": "Влажный корм Pedegree 90г х 24шт.",
+    "PRODUCT_COUNT": "150",
+    "PRODUCT_PRICE": "17,95",
+    "Sum_Price": "2692,5"
+  },
+  {
+    "ARRIVAL_ID": "27",
+    "PRODUCT_NAME": "Кошачья мята",
+    "PRODUCT_COUNT": "300",
+    "PRODUCT_PRICE": "2",
+    "Sum_Price": "600"
+  },
+  {
+    "ARRIVAL_ID": "28",
+    "PRODUCT_NAME": "Творог \"Савушкин-продукт\" 300г",
+    "PRODUCT_COUNT": "400",
+    "PRODUCT_PRICE": "3,59",
+    "Sum_Price": "1436"
+  },
+  {
+    "ARRIVAL_ID": "29",
+    "PRODUCT_NAME": "Творог \"Савушкин-продукт\" 300г",
+    "PRODUCT_COUNT": "350",
+    "PRODUCT_PRICE": "3,79",
+    "Sum_Price": "1326,5"
+  },
+  {
+    "ARRIVAL_ID": "30",
+    "PRODUCT_NAME": "Творог \"Савушкин-продукт\" 300г",
+    "PRODUCT_COUNT": "300",
+    "PRODUCT_PRICE": "3,99",
+    "Sum_Price": "1197"
+  },
+  {
+    "ARRIVAL_ID": "31",
+    "PRODUCT_NAME": "Творог \"Савушкин-продукт\" 250г",
+    "PRODUCT_COUNT": "100",
+    "PRODUCT_PRICE": "2,99",
+    "Sum_Price": "299"
+  },
+  {
+    "ARRIVAL_ID": "32",
+    "PRODUCT_NAME": "Молоко \"Савушкин продукт\" 2,6% 1л",
+    "PRODUCT_COUNT": "50",
+    "PRODUCT_PRICE": "1,99",
+    "Sum_Price": "99,5"
+  },
+  {
+    "ARRIVAL_ID": "33",
+    "PRODUCT_NAME": "Молоко \"Савушкин продукт\" 3,6% 1л",
+    "PRODUCT_COUNT": "80",
+    "PRODUCT_PRICE": "2,19",
+    "Sum_Price": "175,2"
+  }
+]
